@@ -1,4 +1,4 @@
-package com.github.vspiewak.dataflow.job
+package com.github.vspiewak.dataflow.jobs
 
 /*
  * Copyright 2016 Spotify AB.

@@ -1,4 +1,4 @@
-package com.github.vspiewak.dataflow.job
+package com.github.vspiewak.dataflow.jobs
 
 import com.github.vspiewak.dataflow.example.ExampleData
 import com.github.vspiewak.dataflow.options.ExampleOptions

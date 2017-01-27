@@ -6,11 +6,11 @@ Google Cloud DataFlow boilerplate
 Use Scala with Spotify SCIO project
 
     sbt "run-main \
-         com.github.vspiewak.dataflow.job.WordCount \
+         com.github.vspiewak.dataflow.jobs.WordCount \
          --input=README.md \
          --output=wc"
 
-    sbt "run-main com.github.vspiewak.dataflow.job.PubSubToBQ \
+    sbt "run-main com.github.vspiewak.dataflow.jobs.PubSubToBQ \
          --runner=DataflowPipelineRunner \
          --streaming=true \
          --project=<project_id>  \
