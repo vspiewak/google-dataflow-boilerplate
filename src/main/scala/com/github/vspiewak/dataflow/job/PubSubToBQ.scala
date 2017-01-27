@@ -32,7 +32,7 @@ object PubSubToBQ {
 
   val schema = new TableSchema().setFields(List(
     new TableFieldSchema().setName("message").setType("STRING"),
-    new TableFieldSchema().setName("processed_timestamp").setType("TIMESTAMP")
+    new TableFieldSchema().setName("processed_at").setType("TIMESTAMP")
   ).asJava)
 
   def main(cmdlineArgs: Array[String]): Unit = {
