@@ -12,19 +12,6 @@ import org.joda.time.{Duration, Instant}
 
 import scala.collection.JavaConverters._
 
-/*
-SBT
-runMain
-  com.spotify.scio.examples.WindowedWordCount
-  --project=[PROJECT] --runner=DataflowPipelineRunner --zone=[ZONE]
-  --stagingLocation=gs://[BUCKET]/dataflow/staging
-  --streaming=true
-  --pubsubTopic=projects/[PROJECT]/topics/windowed_word_count
-  --inputFile=gs://dataflow-samples/shakespeare/kinglear.txt
-  --bigQueryDataset=[DATASET]
-  --bigQueryTable=[TABLE]
-*/
-
 object PubSubToBQ {
 
   val RAND_RANGE = 7200000

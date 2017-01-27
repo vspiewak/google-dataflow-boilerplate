@@ -24,14 +24,6 @@ import com.spotify.scio._
 import com.spotify.scio.accumulators._
 import ExampleData._
 
-/*
-sbt "scio-examples/runMain com.spotify.scio.examples.WordCount
-  --project=[PROJECT] --runner=DataflowPipelineRunner --zone=[ZONE]
-  --stagingLocation=gs://[BUCKET]/dataflow/staging
-  --input=gs://dataflow-samples/shakespeare/kinglear.txt
-  --output=gs://[BUCKET]/[PATH]/wordcount"
-*/
-
 object WordCount {
 
   def main(cmdlineArgs: Array[String]): Unit = {
